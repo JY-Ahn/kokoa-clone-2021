@@ -1,27 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 @import "reset.css";
 @import "status-bar.css";
+@import "welcome-header.css";
 
 body {
   font-family: "Open Sans", sans-serif;
 }
 
-.Welcome-header {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 20% 0;
-}
-.Welcome-header__title {
-  font-size: 180%;
-  margin-bottom: 10%;
-  font-weight: 600;
-}
-.Welcome-header__text {
-  width: 60%;
-  opacity: 0.5;
-}
 #login-form {
   display: flex;
   flex-direction: column;
