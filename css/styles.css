@@ -7,11 +7,21 @@ body {
 }
 
 .Welcome-header {
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 20% 0;
 }
-
+.Welcome-header__title {
+  font-size: 180%;
+  margin-bottom: 10%;
+  font-weight: 600;
+}
+.Welcome-header__text {
+  width: 60%;
+  opacity: 0.5;
+}
 #login-form {
   display: flex;
   flex-direction: column;
