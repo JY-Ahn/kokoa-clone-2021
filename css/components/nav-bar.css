@@ -1,0 +1,44 @@
+.nav {
+  background-color: #f9f9fa;
+  padding: 3.7% 0;
+  /* padding을 주더라도 신경쓰지 않고, box크기를 유지 */
+  box-sizing: border-box;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.nav__list {
+  display: flex;
+  justify-content: center;
+}
+.nav__btn {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+.nav__link {
+  position: relative;
+}
+.nav__notification {
+  background-color: tomato;
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 1200;
+  position: absolute;
+  right: -20%;
+  top: -10%;
+}
+.nav__dot-notification {
+  background-color: tomato;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  position: absolute;
+  right: -18%;
+}
