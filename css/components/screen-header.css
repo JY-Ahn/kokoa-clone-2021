@@ -6,12 +6,12 @@
 }
 
 .screen-header__title {
-  font-size: 170%;
+  font-size: 175%;
   font-weight: 600;
 }
 
 .screen-header__icons {
-  width: 33%;
+  width: 28%;
   display: flex;
   justify-content: space-between;
 }
